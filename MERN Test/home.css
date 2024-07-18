@@ -1,0 +1,155 @@
+body{
+    background-color: #F0EBE3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aadhar-logo{
+    height: 100px;
+   
+}
+
+.header-container h4{
+    display: flex;
+    margin-top: 35px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+}
+
+.aadhar-logo{
+    margin-left: 40PX;
+    margin-right: 40PX;
+}
+.logo2{
+    margin-left: 40PX;
+    margin-right: 40PX;
+}
+
+.main-cotainer{
+    margin-top: 30px;
+    width: 80vw;
+    height: 100%;
+    background-color: #C7B7A3;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{
+    width:60VW;
+    margin-top: 5PX;
+    border-radius: 5PX;
+    background-color: white;
+    position:absolute
+}
+
+.nav-item{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#demo{
+    margin-top: 100px;
+}
+
+.bottom-container{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left-container{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.l1{
+    width: 25vw;
+    height: 100vh;
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.right-container
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.r1 {
+    width: 45vw;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.r1 h2,h4,p{
+    margin-left: 10px;
+    font-family: "PT Sans", sans-serif
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 10px;
+  
+    
+}
+.r1 h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.r1 h4{
+    color: green;
+    font-weight: 400;
+    font-size: 50px;
+    font-size: medium;
+}
+.r1 p{
+    font-size: 13px;
+}
+#l2 {
+    margin-top: 20px;
+    width: 18vw;
+    height: 150px;
+}
+#l3{
+    margin-top: 20px;
+    width: 18vw;
+    height: 150px;
+}
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
